@@ -292,6 +292,7 @@ header {
 
 .trip {
   background-color: var(--secondary-color);
+  margin: 4rem;
 }
 
 .trip__container :is(.section__title, .section__subtitle, .view__all) {
@@ -304,7 +305,7 @@ header {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
-  margin: 4rem 0;
+  margin: 4rem ;
 }
 
 .trip__card {
@@ -356,16 +357,22 @@ header {
   background-color: var(--primary-color);
 }
 
+.gallary{
+  margin: 4rem;
+}
 .gallary__container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
+  margin: 4rem;
 }
 
 .image__gallary {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
+  gap: 4rem;
+  margin: 4rem;
+  
 }
 
 .gallary__col {
@@ -396,6 +403,7 @@ header {
 
 .subscribe {
   background-color: var(--secondary-color);
+  margin: 4rem;
 }
 
 .subscribe__container {
