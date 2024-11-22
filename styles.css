@@ -301,6 +301,7 @@ header {
 }
 
 .trip__grid {
+  margin-left:10px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
